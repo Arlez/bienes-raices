@@ -32,7 +32,6 @@ h1,h2,h3,h4{
 .dropdown-menu .dropdown-item:hover{
     background-color: #e08709;
 }
-
 .carousel-caption h3{
     font-size: 2.4rem;
 }
@@ -45,10 +44,81 @@ h1,h2,h3,h4{
     border-color: #e08709;
     font-weight: 700;
 }
-
 .sobre-nosotros h3{
     font-size: 1rem;
     font-weight: 700;
+}
+.anuncios .card{
+    margin-bottom: 2rem;
+}
+.card-precio{
+    font-size: 1rem;
+    color: #71b100;
+}
+.card-descripcion img{
+    margin-right: .5rem;
+}
+.encuentra .row{
+    height: 25rem;
+}
+.encuentra{
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.encuentra h3{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.entrada h3:after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+.meta span{
+    color: #e08709;
+}
+.btn-success{
+    background-color: #71b100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-success:hover{
+    background-color: #5d9201;
+}
+.testimoniales{
+    background-color: #71b100;
+    color: white;
+}
+.testimoniales .testimonial-texto::before{
+    content: open-quote;
+    font-size: 3rem;
+    position:absolute;
+    left: 0;
+    top: 1rem;
+    font-weight: 700;
+}
+.testimoniales .testimonial-texto{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+.testimoniales span{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.testimoniales .carousel-item{
+    padding-left: 2rem;
+}
+.footer.bg-dark{
+    background-color: #333333!important;
+}
+.footer .nav-link{
+    color: white;
+    text-transform: uppercase;
 }
 /*media screen*/
 @media (min-width: 768px){
